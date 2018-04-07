@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const commander = require("commander");
 const fs = require("fs");
 const path = require("path");
@@ -44,5 +46,5 @@ commander.args.forEach(function (filePath) {
     const newFilePath = path.join(outputPath, newFileName);
 
     fs.writeFileSync(newFilePath, newCssText, { encoding: "utf8" });
-    console.log(chalk.green.bold("your new stylesheet is in" + newFilePath));
+    console.log(chalk.green.bold("your new stylesheet is in ./" + newFilePath));
 })
