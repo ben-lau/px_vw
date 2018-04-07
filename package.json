@@ -1,10 +1,10 @@
 {
   "name": "px_vw",
-  "version": "1.0.2",
-  "description": "Translate your stylesheet unit from 'px' to 'vw'",
+  "version": "1.0.3",
+  "description": "Convert your stylesheet unit from 'px' to 'vw'",
   "main": "index.js",
   "bin": {
-    "px2vw": "./bin/px_vw.js"
+    "px_vw": "./bin/px_vw.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,9 +19,8 @@
   "homepage": "https://github.com/ben-lau/px_vw.git",
   "devDependencies": {
     "css": "^2.2.1",
-    "extend": "^3.0.1",
+    "object-assign":"^4.1.1",
     "commander": "^2.15.1",
-    "fs-extra": "^5.0.0",
     "chalk": "^2.3.2"
   },
   "repository": {
