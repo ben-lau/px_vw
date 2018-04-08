@@ -1,6 +1,6 @@
 {
   "name": "px_vw",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Convert your stylesheet unit from 'px' to 'vw'",
   "main": "index.js",
   "bin": {
